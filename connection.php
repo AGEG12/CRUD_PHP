@@ -7,7 +7,7 @@ function connection() {
     $DB_NAME = $_ENV['DB_NAME'];
     $DB_PORT = $_ENV['DB_PORT'];
     
-    $db = mysqli_connect("$DB_HOST","$DB_USER","$DB_PASSWORD","$DB_NAME","$DB_PORT");
+    $conn = mysqli_connect("$DB_HOST","$DB_USER","$DB_PASSWORD","$DB_NAME","$DB_PORT");
 /*     $host = 'localhost';
     $user = 'root';
     $password = '';
